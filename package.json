@@ -18,6 +18,7 @@
         "gh-pages": "^0.12.0",
         "react-scripts": "1.0.5"
     },
+    "homepage": "https://Loki2.github.io/softnizc",
     "dependencies": {
         "admin-on-rest": "~1.3.2",
         "aor-language-french": "^1.8.0",
@@ -33,11 +34,11 @@
         "redux-saga": "~0.15.0"
     },
     "scripts": {
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "deploy": "gh-pages -d build"
-    },
-    "homepage": "http://marmelab.com/admin-on-rest-demo/"
+        "eject": "react-scripts eject"
+    }
 }

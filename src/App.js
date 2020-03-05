@@ -35,7 +35,8 @@ class App extends Component {
     render() {
         return (
             <Admin
-                title="Posters Galore Admin"
+            // Posters Galore Admin
+                title="Softnizc Supper Admin"
                 restClient={restClient}
                 customReducers={{ theme: themeReducer }}
                 customSagas={sagas}
